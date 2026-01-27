@@ -6,15 +6,15 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<p> this is a change in html</p>
-<a href="https://www.w3schools.com">This is a link</a>
-
+<div class="titulosImagem">
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <p> this is a change in html</p>
+    <a href="https://www.w3schools.com">This is a link</a>
+</div>
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-
-<table>
+<div>
+<table class="tabela">
     <tr> 
         <th>cabecalho1</th>
         <th>cabecalho2</th>
@@ -41,10 +41,14 @@
     </tr>
 
 </table>
-<form>
-    <button>adiciona</button>
-    <label>n</label>
-    <button>reduz</button>
-</form>
+</div>
+<div class="container">
+<h2>Contador</h2>
+<span id="valor">0</span>
+        
+        <button class="btn-decrementar" onclick="alterar(-1)">Decrementar</button>
+        <button class="btn-incrementar" onclick="alterar(1)">Incrementar</button>
+    </div>
+
 </body>
 </html>
