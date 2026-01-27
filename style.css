@@ -1,16 +1,21 @@
+/* defenicao de estilos na table*/
 table, th, td {
   border: 1px solid black;
 }
+/* defenicao de estilos do elemnto body*/
 body {
   background-color: lightblue;
 }
 
+/*defenicao dos estilos para o titulo h1 */
 h1 {
   color: black;
   text-align: center;
 }
 
+/*defenicao dos estilos para paragrafo*/
 p {
-  font-family: verdana;
-  font-size: 20px;
+    font-family: verdana;
+    font-size: 20px;
+    color: black;
 }
